@@ -1,10 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
 <head>
-  <meta charset="UTF-8">
-  <title></title>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <meta name='description' content='Gong App!'>
+  <title>GONG</title>
+  <style>
+  html, body {
+    font-family: Avenir;
+    background-color: rgba(0, 0, 0, 0.07);
+  }
+  .center-h {
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .center-v {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .big { font-size: 9em; }
+  @media (max-width: 600px) {
+    .big { font-size: 7em; }
+  }
+  </style>
 </head>
 <body>
-  GONG!
+  <div class='center-v center-h'>
+    <div class='big'>GONG</div>
+    <div>coming soon</div>
+  </div>
+  <script>console.log('hey there, gorgeous ;)')</script>
 </body>
 </html>
