@@ -1,0 +1,9 @@
+.hover-invert:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+.invert {
+  color: #fff;
+  background-color: #000;
+}
